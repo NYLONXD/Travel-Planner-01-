@@ -38,6 +38,13 @@ app.get('/api/trips/:id', async (req, res) => {
   }
 });
 
+// app.get('/',(req,res)=>{
+//   res.send({
+//     activeStatus:true,
+//     error:false,
+//   })
+// })
+
 // Create a new trip
 app.post('/api/trips', async (req, res) => {
   try {
